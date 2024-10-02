@@ -27,7 +27,7 @@ namespace Tyuiu.SeledkovNP.Sprint1.Task4.V27
 
             int x;
             int y;
-            double res;
+            
 
             Console.WriteLine("Введите значение x: ");
             x = Convert.ToInt32(Console.ReadLine());
@@ -35,15 +35,15 @@ namespace Tyuiu.SeledkovNP.Sprint1.Task4.V27
             Console.WriteLine("Введите значение y: ");
             y = Convert.ToInt32(Console.ReadLine());
 
-            res = ds.Calculate(x, y);
+            
 
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("1 + sin PI * x / x - Sqrt (abs y) = " + res);
-            Console.WriteLine("Ваш ответ: " + Math.Round(res, 3));
+            Console.WriteLine(" (1 + sin PI * x) / (x - Sqrt (abs y)) = " + ds.Calculate(x, y));
+            
 
 
             Console.ReadKey();
