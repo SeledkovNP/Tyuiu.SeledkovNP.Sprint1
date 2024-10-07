@@ -44,7 +44,7 @@ namespace Tyuiu.SeledkovNP.Sprint1.Task7.V21
             Console.WriteLine("***************************************************************************");
 
             double result = ds.Calculate(x, y);
-            Console.WriteLine(Math.Round(result, 3));
+            Console.WriteLine(result);
 
 
             Console.ReadKey();
