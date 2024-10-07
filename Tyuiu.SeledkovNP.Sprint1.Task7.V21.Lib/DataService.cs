@@ -17,6 +17,7 @@ namespace Tyuiu.SeledkovNP.Sprint1.Task7.V21.Lib
             double tra1 = (Math.Pow(y, x)) / (Math.Cos(x) - x / 3);
             double tra2 = (Math.Sin(x * x) + Math.Cos(y)) / (Math.Cos(x) - Math.Sin(y));
             z = tra1 + (tra2 * Math.Tan(x * y));
+            Math.Round(z, 3);
             return z;
         }
     }
